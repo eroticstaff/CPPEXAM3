@@ -1,3 +1,0 @@
-/home/xyamix/CLionProjects/CPPEXAM/var9/cmake-build-debug/CMakeFiles/var9.dir
-/home/xyamix/CLionProjects/CPPEXAM/var9/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/xyamix/CLionProjects/CPPEXAM/var9/cmake-build-debug/CMakeFiles/rebuild_cache.dir
