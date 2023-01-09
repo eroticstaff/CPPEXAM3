@@ -6,8 +6,13 @@ class LinkedList {
  private:
   struct Node {
     T data;
-    std::shared_ptr<Node> prev;
+    std::weak_ptr<Node> prev;
     std::shared_ptr<Node> next;
+    ~Node(){
+      //use weak_ptr instead of shared because of cycle pointing -> memory leakage
+      //try to change weak to shared and u see that destructors not call
+      std::cout << "Deleted " << data << std::endl;
+    }
   };
 
   std::shared_ptr<Node> head;
